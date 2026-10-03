@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-10-03T22:31:10.147917+00:00",
+  "nodeVersion": "v22.16.0",
+  "nodeChecks": {
+    "command": "node --test",
+    "exitCode": 0,
+    "tests": 4,
+    "output": "TAP version 13\n# Subtest: first match explains overlapping rules\nok 1 - first match explains overlapping rules\n  ---\n  duration_ms: 8.028\n  type: 'test'\n  ...\n# Subtest: threshold and no match are explicit\nok 2 - threshold and no match are explicit\n  ---\n  duration_ms: 3.7296\n  type: 'test'\n  ...\n# Subtest: missing and malformed inputs do not become valid zeros\nok 3 - missing and malformed inputs do not become valid zeros\n  ---\n  duration_ms: 2.1941\n  type: 'test'\n  ...\n# Subtest: rule order is data and duplicate IDs are invalid\nok 4 - rule order is data and duplicate IDs are invalid\n  ---\n  duration_ms: 7.7456\n  type: 'test'\n  ...\n1..4\n# tests 4\n# suites 0\n# pass 4\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 665.1929\n"
+  },
+  "browserChecks": {
+    "id": 17,
+    "status": "passed",
+    "checks": [
+      "No document horizontal overflow at 1200, 800, 500 and 320 CSS pixels",
+      "First Tab reveals skip link; Enter focuses main",
+      "Overlapping rule explanation, no match, missing minutes and corrected boundary all exercised"
+    ],
+    "browser": "Installed Microsoft Edge via Playwright",
+    "checkedAt": "2026-10-03T22:28:29.160705+00:00",
+    "consoleErrors": []
+  },
+  "scope": "Actual local reference verification. Learner stories are not implemented. Remote CI results are separate."
+}
