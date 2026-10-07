@@ -6,8 +6,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 01: Show the first failed condition
 
-**User need:** As a learner or user of Decision Table Builder, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Add an explanation for why each nonmatching rule failed, using structured result fields.
 
 **Implementation plan:**
@@ -26,8 +24,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 02: Add a fifth bounded rule
-
-**User need:** As a learner or user of Decision Table Builder, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Choose a new documented threshold within the existing vocabulary and place it deliberately.
 
@@ -48,8 +44,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 03: Compare two participants
 
-**User need:** As a learner or user of Decision Table Builder, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Evaluate a small fixture list independently and render one result per participant ID.
 
 **Implementation plan:**
@@ -68,8 +62,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 04: Add table-order controls
-
-**User need:** As a learner or user of Decision Table Builder, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Let the learner move a rule up or down in a practice copy and rerun the same fixture.
 
@@ -90,8 +82,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 05: Reject duplicate IDs clearly
 
-**User need:** As a learner or user of Decision Table Builder, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Improve the validation error to identify the duplicated ID without exposing an unrelated participant value.
 
 **Implementation plan:**
@@ -110,8 +100,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 06: Build a boundary matrix
-
-**User need:** As a learner or user of Decision Table Builder, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Create examples immediately below, at and above every unique minute threshold.
 

@@ -20,19 +20,19 @@ List each rule in its declared order with level and minimum minutes. Mark overla
 
 The adapter checks whether the input is blank before Number conversion. The core accepts numeric minutes and rejects non-finite values. Those are complementary responsibilities: one interprets a form string, the other enforces the domain boundary for any caller.
 
-**Pause and produce evidence:** New learner with 9 minutes. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Blank minutes. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 3: Validate the table before choosing
 
 Read the rule-validation loop and Set of IDs. Duplicated IDs would make explanations ambiguous even if labels differ. Test a bad rule placed after a valid winner to prove validation is not skipped by an early return when the first rule matches.
 
-**Pause and produce evidence:** Blank minutes. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** A malformed rule placed after the winning rule. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 4: Explain a result
 
 Read the returned winner and matchedIds independently. The winner is not a count of matches, and no match is represented by null rather than an invented default activity. The UI turns that explicit state into a next-step suggestion without silently changing the rules.
 
-**Pause and produce evidence:** Blank minutes. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** New learner with 9 minutes. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Keep the implementation reviewable
 
